@@ -1,0 +1,31 @@
+html {
+  text-align: center;
+}
+
+.page {
+  display: inline-block;
+}
+
+.square {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 0px;
+}
+
+.color {
+  background-color: gray;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 0px;
+}
+
+.gridContainer {
+  margin-top: 50px;
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
