@@ -28,7 +28,7 @@ updateGrid = () => {
 };
 
 const square = document.querySelector("div");
-square.addEventListener("mousedown", function(event) {
+square.addEventListener("mouseover", function(event) {
   event.target.classList.replace("square", "color");
 });
 
