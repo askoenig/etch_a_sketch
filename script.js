@@ -1,7 +1,8 @@
 const grid = document.querySelector(".gridContainer");
-let input = document.getElementById("quantity");
+const input = document.getElementById("quantity");
+const button = document.querySelector(".reset");
 
-// const newSize = input.value;
+// button.addEventListener("click", clearGrid);
 
 createGrid = () => {
   input.addEventListener("change", updateGrid);
@@ -30,6 +31,13 @@ updateGrid = () => {
 const square = document.querySelector("div");
 square.addEventListener("mouseover", function(event) {
   event.target.classList.replace("square", "color");
+});
+
+button.addEventListener("click", function() {
+  grid.innerHTML = "";
+  grid.style.setProperty("grid-template-columns", `repeat(16, 2fr)`);
+  grid.style.setProperty("grid-template-rows", `repeat(16, 2fr)`);
+  createGrid();
 });
 
 createGrid();

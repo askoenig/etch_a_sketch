@@ -3,6 +3,11 @@ html {
   font-family: Monaco;
 }
 
+.right {
+  float: right;
+  text-align: center;
+}
+
 .page {
   display: inline-block;
 }
@@ -19,12 +24,13 @@ html {
 
 .gridContainer {
   margin-top: 25px;
+  margin-right: 20%;
   display: inline-grid;
   grid-template-columns: repeat(16, 2fr);
   grid-template-rows: repeat(16, 2fr);
   background-color: black;
   padding: 5px;
   border-radius: 5px;
-  height: 525px;
-  width: 525px;
+  height: 550px;
+  width: 550px;
 }
