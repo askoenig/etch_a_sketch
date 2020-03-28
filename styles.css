@@ -5,10 +5,9 @@ html {
 
 .right {
   float: right;
-  text-align: center;
 }
 
-.page {
+.left {
   display: inline-block;
 }
 
@@ -24,13 +23,13 @@ html {
 
 .gridContainer {
   margin-top: 25px;
-  margin-right: 20%;
+  margin-right: 40px;
   display: inline-grid;
   grid-template-columns: repeat(16, 2fr);
   grid-template-rows: repeat(16, 2fr);
   background-color: black;
   padding: 5px;
   border-radius: 5px;
-  height: 570px;
-  width: 570px;
+  height: 575px;
+  width: 575px;
 }
