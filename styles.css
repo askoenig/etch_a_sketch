@@ -27,8 +27,7 @@ html {
   display: inline-grid;
   grid-template-columns: repeat(16, 2fr);
   grid-template-rows: repeat(16, 2fr);
-  background-color: black;
-  padding: 5px;
+  border: 5px solid black;
   border-radius: 5px;
   height: 575px;
   width: 575px;
